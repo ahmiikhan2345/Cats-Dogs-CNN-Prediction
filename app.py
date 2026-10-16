@@ -15,7 +15,7 @@ st.write("CNN Image Classification Model")
 # Load trained CNN model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("cats_dogs_cnn.keras")
+    return tf.keras.models.load_model("cats_dogs_cnn_small.keras")
 
 model = load_model()
 
